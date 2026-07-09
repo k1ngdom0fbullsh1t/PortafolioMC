@@ -37,7 +37,7 @@ export function About() {
         <div ref={ref}>
           <SectionTitle
             label="Sobre mí"
-            title="Ingeniero apasionado por el software"
+            title="Ingeniero apasionado por los datos y la IA"
             isInView={isInView}
           />
 
@@ -53,20 +53,25 @@ export function About() {
                 <span className="text-foreground font-medium">
                   Ingeniero en Informática
                 </span>{" "}
-                con más de 5 años de experiencia construyendo soluciones de software
-                robustas y escalables. Me especializo en desarrollo Full Stack, con
-                foco en arquitecturas modernas y experiencias de usuario de alta calidad.
+                con pasión por la{" "}
+                <span className="text-foreground font-medium">Ciencia de Datos</span>,
+                la{" "}
+                <span className="text-foreground font-medium">Inteligencia Artificial</span>{" "}
+                y el desarrollo de software. Me especializo en construir soluciones que
+                van desde la extracción y análisis de datos hasta modelos predictivos
+                con interpretabilidad real.
               </p>
               <p className="text-muted-foreground leading-relaxed text-base">
-                Mi enfoque combina solidez técnica con visión de producto. Disfruto
-                trabajar en problemas complejos, desde el diseño de sistemas distribuidos
-                hasta la optimización de interfaces que los usuarios realmente aman usar.
+                Trabajo con Python, XGBoost, SHAP y herramientas de visualización para
+                transformar datos en decisiones. También desarrollo interfaces modernas
+                con React y Next.js, lo que me permite llevar los modelos hasta el
+                usuario final — desde el pipeline de datos hasta el dashboard interactivo.
               </p>
               <p className="text-muted-foreground leading-relaxed text-base">
-                Creo firmemente en el{" "}
-                <span className="text-foreground font-medium">código limpio</span>,
-                las buenas prácticas de ingeniería y el aprendizaje continuo. Cuando no
-                estoy programando, comparto lo aprendido a través de mi blog técnico.
+                Creo en el aprendizaje continuo y en proyectos concretos como forma de
+                demostrar habilidades. Cada proyecto que construyo busca resolver un
+                problema real con{" "}
+                <span className="text-foreground font-medium">datos reales</span>.
               </p>
 
               <div className="flex flex-wrap gap-3 pt-2">
