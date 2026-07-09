@@ -7,7 +7,7 @@ Personal portfolio website built with **Next.js 15**, **React**, **TypeScript**,
 - **Framework:** Next.js 15 (App Router)
 - **Language:** TypeScript
 - **Styling:** Tailwind CSS + Framer Motion
-- **AI Integration:** LLM via Google Gemini API
+- **AI Integration:** Google Gemini API (architecture ready; currently using a smart mock — see note below)
 - **Deployment:** Netlify
 
 ## Features
@@ -17,6 +17,12 @@ Personal portfolio website built with **Next.js 15**, **React**, **TypeScript**,
 - AI portfolio assistant (chatbot)
 - Project showcase
 - Contact section
+
+## Chatbot — Architecture Note
+
+The chatbot is built on top of the **Google Gemini API** (`@google/generative-ai`). The full integration is implemented in `app/api/chat/route.ts`, but the live API is currently **disabled to avoid operational costs** on a personal portfolio project. In its place, a **smart keyword-based mock** handles questions about Marcelo's projects, skills, experience, and background — with automatic Spanish/English language detection based on the user's input.
+
+To enable the real Gemini API, add a valid `GEMINI_API_KEY` to `.env.local` and update `route.ts` to call the model instead of the mock function.
 
 ## Projects Featured
 
@@ -48,7 +54,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 | Variable | Description |
 |---|---|
-| `GEMINI_API_KEY` | Google Gemini API key (for the AI chatbot) |
+| `GEMINI_API_KEY` | Google Gemini API key (optional — the chatbot runs on a smart mock without it) |
 
 ## Author
 
