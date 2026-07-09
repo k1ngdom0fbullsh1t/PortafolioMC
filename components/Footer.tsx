@@ -15,7 +15,7 @@ export function Footer() {
           <div>
             <p className="text-sm text-muted-foreground">
               © {new Date().getFullYear()}{" "}
-              <span className="text-foreground font-medium">Marcelo Corro</span>. Construido con Next.js, React, Tailwind CSS y Gemini API.
+              <span className="text-foreground font-medium">Marcelo Corro</span>. Construido con Next.js, React y Tailwind CSS.
             </p>
           </div>
 
