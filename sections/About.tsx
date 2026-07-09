@@ -49,17 +49,10 @@ export function About() {
               className="space-y-5"
             >
               <p className="text-muted-foreground leading-relaxed text-base">
-                Soy un{" "}
-                <span className="text-foreground font-medium">
-                  Ingeniero en Informática
-                </span>{" "}
-                con pasión por la{" "}
-                <span className="text-foreground font-medium">Ciencia de Datos</span>,
-                la{" "}
-                <span className="text-foreground font-medium">Inteligencia Artificial</span>{" "}
-                y el desarrollo de software. Me especializo en construir soluciones que
-                van desde la extracción y análisis de datos hasta modelos predictivos
-                con interpretabilidad real.
+                Soy un Ingeniero en Informática con pasión por la Ciencia de Datos,
+                la Inteligencia Artificial y el desarrollo de software. Me especializo
+                en construir soluciones que van desde la extracción y análisis de datos
+                hasta modelos predictivos con interpretabilidad real.
               </p>
               <p className="text-muted-foreground leading-relaxed text-base">
                 Trabajo con Python, XGBoost, SHAP y herramientas de visualización para
@@ -70,8 +63,7 @@ export function About() {
               <p className="text-muted-foreground leading-relaxed text-base">
                 Creo en el aprendizaje continuo y en proyectos concretos como forma de
                 demostrar habilidades. Cada proyecto que construyo busca resolver un
-                problema real con{" "}
-                <span className="text-foreground font-medium">datos reales</span>.
+                problema real con datos reales.
               </p>
 
               <div className="flex flex-wrap gap-3 pt-2">
